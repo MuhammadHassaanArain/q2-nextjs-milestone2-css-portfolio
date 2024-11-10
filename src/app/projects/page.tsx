@@ -1,12 +1,12 @@
 import "../projects/projects.css";
 
-import ImageSlider from "../../components/ImageSlider";
+// import ImageSlider from "../../components/ImageSlider";
 
-const project2 = [
-  "/images/Screenshot (89).png",
-  "/images/Screenshot (90).png",
-  "/images/Screenshot (91).png",
-];
+// const project2 = [
+//   "/images/Screenshot (89).png",
+//   "/images/Screenshot (90).png",
+//   "/images/Screenshot (91).png",
+// ];
 // const project1 = [
 //     "/images/Screenshot (98).png",
 //     "/images/Screenshot (99).png",
@@ -66,7 +66,7 @@ export default function Projects() {
       </div>
 
       <div className="customContainer components">
-        <ImageSlider images={project2} />
+        {/* <ImageSlider images={project2} /> */}
         <h3
           style={{
             color: "#ff9500",
