@@ -59,8 +59,8 @@ function HomePage() {
             className="hoverOrange customClass"
             style={{
               color: "#e5e5e7",
-
               fontWeight:1000,
+              border:" 2px solid #ff9500",
             }}
           >
             <Link href={"/contact"}>Contact</Link>
@@ -70,6 +70,7 @@ function HomePage() {
            style={{
              color: "#ff9500",
              fontWeight:1000,
+             border:" 2px solid  rgb(216, 207, 207)",
            }}
           >
             <Link href={"/about"}>About</Link>
