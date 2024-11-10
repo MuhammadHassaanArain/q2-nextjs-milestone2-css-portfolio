@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import "../components/ImageSlider.css";
 import { useState } from "react";
 
@@ -24,10 +25,12 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
   return (
     <div className="container">
       <div className="customBox">
-        <img
+        <Image
           src={images[currentIndex]}
           alt="Slider Image"
           className="customImage"
+          width={1000}
+          height={1000}
         />
       </div>
 
@@ -37,7 +40,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
 
       <button onClick={nextSlide} className="customButton right">
         &#9654;
-     
       </button>
     </div>
   );
