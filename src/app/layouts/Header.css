@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .flexJustifyAround {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .spaceX5 {
+    margin-right: 20px;
+  }
+}
+.mr {
+  margin-right: 8px;
+}
+
+.hoverAccentOrange {
+ 
+  color: white, 
+}
+.hoverAccentOrange:hover {
+  color: #ff9500;
+}
