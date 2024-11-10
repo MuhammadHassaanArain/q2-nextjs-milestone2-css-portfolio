@@ -20,4 +20,18 @@
 }
 .hoverAccentOrange:hover {
   color: #ff9500;
+
+}
+
+.wh {
+  width: 2.5rem;
+  height: 1rem;
+}
+.copyright {
+  color:#a1a1a4 ;
+  font-weight: 700;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }

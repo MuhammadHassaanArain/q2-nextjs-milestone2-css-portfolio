@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "../layouts/Header.css";
+import "../layouts/Layouts.css";
 function Header() {
   return (
     <div style={{ background: "#1c1c1e", width: "100%" }}>
